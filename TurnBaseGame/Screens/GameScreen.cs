@@ -52,7 +52,7 @@ namespace TurnBaseGame.Screens
             // Launch the GameLogic thread
             _physicLoop = new PhysicsLoop(GameSettings.PhysicRefreshingRate);
             //_graphicsLoop = new GraphicsLoop(GameSettings.GraphicRefreshingRate, this);
-            //_graphicsLoop = new GraphicsLoop(0, this);
+            _graphicsLoop = new GraphicsLoop(0, this);
 
             _level = new ALevel("Content/Map/map_test.json");
         }

@@ -9,8 +9,8 @@
     <ProjectGuid>{5FEED2ED-C54C-494E-967E-AA0F2DA3A902}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TurnBaseGame</RootNamespace>
-    <AssemblyName>TurnBaseGame</AssemblyName>
+    <RootNamespace>GameEngine</RootNamespace>
+    <AssemblyName>GameEngine</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
