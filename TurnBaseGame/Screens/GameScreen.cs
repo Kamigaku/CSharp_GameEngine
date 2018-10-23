@@ -11,6 +11,7 @@ using TurnBaseGame.Logging;
 
 namespace TurnBaseGame.Screens
 {
+
     public class LevelScreen : Game
     {
 
@@ -58,6 +59,8 @@ namespace TurnBaseGame.Screens
         }
 
         #endregion Constructor
+
+        #region Overrided methods
 
         /// <summary>
         /// Allows the game to perform any initialization it needs to before starting to run.
@@ -118,6 +121,8 @@ namespace TurnBaseGame.Screens
             _graphicsLoop.Update();
             Logger.Log(Logger.LogLevel.DEBUG, "Updating GraphicsLoop took " + gameTime.ElapsedGameTime.Milliseconds + "ms.");
         }
+
+        #endregion Overrided methods
 
         #region Private methods
 
